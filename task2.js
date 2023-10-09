@@ -1,12 +1,11 @@
 const objectSolution=(nums)=> {
-    let obj = {};
-    for (let i = 0; i < nums.length; i++) {
-        let inum = nums[i];
-        if (obj[inum]) {
+    const setNum = new Set();
+
+    for (const key in nums) {
+        if(setNum.has(nums[key])) {
             return true;
-        } else {
-            obj[inum] = true;
         }
+        setNum.add(nums[key])
     }
 
     return false;
