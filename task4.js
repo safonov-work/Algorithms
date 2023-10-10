@@ -1,4 +1,3 @@
-// solution 1
 const reverseList = (head) => {
     if (!head) return [];
     let prev = null;
