@@ -1,14 +1,14 @@
 const groupAnagrams = (strs) => {
-  let result = new Map()
-
+  let obj = {}
   for (let str of strs) {
-    let sorted = str.split('').sort('').join('')
-    if (result.has(sorted)) {
-      result.set(sorted, [...result.get(sorted), str])
+    let letters = str.split('').sort().join('')
+    if (obj[letters]) {
+      obj[letters].push(str)
     } else {
-      result.set(sorted, [str])
+      obj[letters] = [str]
     }
   }
+  return Object.values(obj)
 }
 
 console.log(groupAnagrams(['eat', 'tea', 'tan', 'ate', 'nat', 'bat']))
