@@ -1,27 +1,26 @@
 const isValid = (s) => {
-    const stackBrackets = [];
+  const stackBrackets = []
 
-    for (let i = 0; i < s.length; i++) {
-        let currentStr = s.charAt(i);
+  for (let i = 0; i < s.length; i++) {
+    let currentStr = s.charAt(i)
 
-        switch (currentStr) {
-            case "(":
-                stackBrackets.push(")")
-                break;
-            case "[":
-                stackBrackets.push("]");
-                break;
-            case "{":
-                stackBrackets.push("}");
-                break;
-            default :
-                if(currentStr !== stackBrackets.pop()) {
-                    return false
-                }
+    switch (currentStr) {
+      case '(':
+        stackBrackets.push(')')
+        break
+      case '[':
+        stackBrackets.push(']')
+        break
+      case '{':
+        stackBrackets.push('}')
+        break
+      default:
+        if (currentStr !== stackBrackets.pop()) {
+          return false
         }
     }
-    return stackBrackets.length === 0;
-
+  }
+  return stackBrackets.length === 0
 }
 
-console.log(isValid("{}[](){}{}"))
+console.log(isValid('{}[](){}{}'))
