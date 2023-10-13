@@ -1,27 +1,48 @@
-const nums = [1, -1, -1, 0]
+const nums = [-1, 0, 1, 2, -1, -4]
 
 const threeSum = (nums) => {
-  nums.sort((a, b) => a - b)
+  const sortedArr = quickSort(nums)
   const result = []
+  // quick sort
 
-  for (let i = 0; i < nums.length; i++) {
+  function quickSort(arr) {
+    if (arr.length < 2) return arr
+
+    const piv = arr[0]
+    const lessItems = []
+    const moreItems = []
+
+    for (let i = 1; i < arr.length; i++) {
+      if (piv >= arr[i]) {
+        lessItems.push(arr[i])
+      } else {
+        moreItems.push(arr[i])
+      }
+    }
+
+    return [...quickSort(lessItems), piv, ...quickSort(moreItems)]
+  }
+
+  //
+
+  for (let i = 0; i < sortedArr.length; i++) {
     let left = i + 1
-    let right = nums.length - 1
+    let right = sortedArr.length - 1
     let sum = 0
 
     while (left < right) {
-      sum = nums[i] + nums[left] + nums[right]
+      sum = sortedArr[i] + sortedArr[left] + sortedArr[right]
 
       if (sum === 0) {
-        result.push([nums[i], nums[left], nums[right]])
-        while (nums[left + 1] === nums[left]) left++
-        while (nums[right - 1] === nums[right]) right--
+        result.push([sortedArr[i], sortedArr[left], sortedArr[right]])
+        while (sortedArr[left + 1] === sortedArr[left]) left++
+        while (sortedArr[right - 1] === sortedArr[right]) right--
         left++
         right--
       } else if (sum < 0) left++
       else right--
     }
-    while (nums[i + 1] === nums[i]) {
+    while (sortedArr[i + 1] === sortedArr[i]) {
       i++
     }
   }
