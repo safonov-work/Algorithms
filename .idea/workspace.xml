@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4804cca8-a262-456e-85c4-8ce770b95899" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task25.js" beforeDir="false" afterPath="$PROJECT_DIR$/task25.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,19 +45,21 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/task25&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/user/Desktop/temp/Algorithms&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/home/user/Downloads/WebStorm-2023.2.2/WebStorm-232.9921.42/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Node.js.task6.js">
+  <component name="RunManager" selected="Node.js.task24.js">
+    <configuration name="task24.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/task24.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="task2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/task2.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -74,6 +74,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.task24.js" />
         <item itemvalue="Node.js.task6.js" />
         <item itemvalue="Node.js.task5.js" />
         <item itemvalue="Node.js.task3.js" />
@@ -91,6 +92,9 @@
       <updated>1696596433012</updated>
       <workItem from="1696596434079" duration="3923000" />
       <workItem from="1696834784071" duration="8615000" />
+      <workItem from="1697519866392" duration="270000" />
+      <workItem from="1697520374334" duration="1351000" />
+      <workItem from="1697521876335" duration="490000" />
     </task>
     <servers />
   </component>
