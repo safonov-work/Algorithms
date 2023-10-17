@@ -8,7 +8,6 @@ const containsDuplicate = (nums) => {
 console.log(containsDuplicate([1,2,3,1]))
 
 // solution 2;
-
 const containsDuplicate2 = (nums) => {
     // let res = [];
 
