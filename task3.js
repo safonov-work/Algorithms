@@ -1,16 +1,16 @@
 // solution 1;
 const climbStairs = (n) => {
-    let stepsArr = new Array(n);
-    stepsArr[1] = 1;
-    stepsArr[2] = 2;
-
-    for(let i = 3; i <= n; i++) {
-        stepsArr[i] = stepsArr[i-1] + stepsArr[i - 2];
-    }
-    return stepsArr[n]
+  return n <= 3 ? n : 2 * (climbStairs(n - 2) + climbStairs(n - 3))
 }
 
-console.log(climbStairs(5));
+console.log(climbStairs(5))
+
+// аналогичная задача с числами фибонначи
+
+const fibonacci = (n) => {
+  return n < 2 ? n : fibonacci(n - 1) + fibonacci(n - 2)
+}
+
+console.log(fibonacci(10))
 
 // solution 2;
-
