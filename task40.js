@@ -65,7 +65,7 @@ const isCorrectBrackets2 = (str) => {
   return stack.length === 0;
 };
 
-console.log(isCorrectBrackets2('[({})]')); // true
+//console.log(isCorrectBrackets2('[({})]')); // true
 
 isCorrectBrackets('[{}]'); // true
 isCorrectBrackets('[({})]'); // true
