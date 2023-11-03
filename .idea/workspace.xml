@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15c59258-5bf6-4703-bee0-711385722cb8" name="Changes" comment="" />
+    <list default="true" id="15c59258-5bf6-4703-bee0-711385722cb8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/task51.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +36,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feature/task50",
+    "git-widget-placeholder": "feature/task51",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -41,7 +44,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Node.js.task50.js">
+  <component name="RunManager" selected="Node.js.task51.js">
     <configuration name="task43.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/task43.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -54,12 +57,12 @@
     <configuration name="task49.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/task49.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="task50.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/task50.js" working-dir="$PROJECT_DIR$">
+    <configuration name="task51.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/task51.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.task50.js" />
+        <item itemvalue="Node.js.task51.js" />
         <item itemvalue="Node.js.task49.js" />
         <item itemvalue="Node.js.task45.js" />
         <item itemvalue="Node.js.task44.js" />
