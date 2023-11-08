@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15c59258-5bf6-4703-bee0-711385722cb8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/task57.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task58.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +36,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feat/task57",
+    "git-widget-placeholder": "feat/task58",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -45,10 +45,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Node.js.task57.js">
-    <configuration name="task49.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/task49.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.task58.js">
     <configuration name="task54.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/task54.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -61,13 +58,16 @@
     <configuration name="task57.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/task57.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="task58.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/task58.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.task58.js" />
         <item itemvalue="Node.js.task57.js" />
         <item itemvalue="Node.js.task56.js" />
         <item itemvalue="Node.js.task55.js" />
         <item itemvalue="Node.js.task54.js" />
-        <item itemvalue="Node.js.task49.js" />
       </list>
     </recent_temporary>
   </component>
