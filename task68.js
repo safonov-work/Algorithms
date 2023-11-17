@@ -16,7 +16,7 @@ const isAcronym = (words, s) => {
 
   return res.join('') === s;
 };
-console.log(isAcronym(['b', 'x'], 'bx'));
+console.log(isAcronym(['bxxxx', 'xxxxx', 'x'], 'bxx'));
 
 //Учитывая массив строк wordsи строку s, определите, является ли sэто аббревиатурой слов.
 
